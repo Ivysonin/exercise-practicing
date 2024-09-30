@@ -7,5 +7,5 @@ frase2 = input ("Dgite outra frase: ")
 
 if frase1 != frase2 :
     print ("Essas frases são diferentes !")
-else:
+elif frase1 == frase2 :
     print ("Essas frases são iguais !")
