@@ -17,6 +17,6 @@ elif salario_atual > 280.00 and salario_atual < 700.00 :
 
 elif salario_atual > 700.00 and salario_atual < 1500.00 :
     print (f"O seu Sálario antes era de R${salario_atual}, Como você está demonstrando desempenho, Vamos da um aumento de 10% você agora passa a receber R${reajuste_10}")
-
+    
 else:
     print (f"O seu Sálario antes era de R${salario_atual}, Como você trabalhou mais do que devia, vamos da um aumento de 5% você agora passa a receber R${reajuste_5}")
