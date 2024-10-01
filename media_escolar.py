@@ -10,6 +10,6 @@ if media == 10 :
 elif media >= 7 and media != 10 :
     print (f"Sua média {media}. Você está aprovado !")
     print ("====================")
-elif media < 7 :
+else:
     print (f"Sua média {media}. Você está em recuperação, estude mais ! ")
     print ("====================")
