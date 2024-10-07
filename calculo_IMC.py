@@ -10,7 +10,7 @@
 
 peso = float(input ("Digite seu peso: "))
 altura = float(input ("Digite sua altura: "))
-massa_corporal = peso / (altura**2)
+massa_corporal = peso / (altura**2) # Formula para calcular IMC
 
 if massa_corporal < 18.5 :
     print (f"Com o IMC de {massa_corporal:.2f}, você está abaixo do peso !")
