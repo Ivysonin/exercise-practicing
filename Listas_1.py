@@ -25,3 +25,8 @@ lista_numeros.append(num5) # Adicionando o valor 'num5' a minha lista 'lista_num
 print (f"Aqui está sua lista {lista_numeros}\n")
 
 print ("===== Removendo o Primeiro e último número =====")
+# Removendo os números selecionados
+lista_numeros.remove(num1)
+lista_numeros.remove (num5)
+
+print (f"===== Sua lista sem o primeiro e o último número {lista_numeros}")
