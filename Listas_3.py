@@ -29,7 +29,7 @@ print ("\n===== Escolha sua fruta favorita que esteja na sua lista =====")
 print ("=== Lista: ")
 
 for i in lista_frutas: # Listando a 'lista_frutas'
-    print (f"- {i}") # Listando e deixando todas em minúsculas 
+    print (f"- {i}") # Listando para melhor visualização
 
 # Estrutura que escolhe sua fruta favorita
 
